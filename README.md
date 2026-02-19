@@ -25,3 +25,15 @@ Optional and only used if enabled:
 
 scan_sequence_node.cpp
 Publishes sweep commands; if enabled, it can fight your tracker because both write /servo_angles.
+
+
+
+2D_Pan_tracker_single.py <--- When we are integrating to the main stack
+
+It includes clearly labeled source blocks:
+
+object_motion_detector_2d.py logic
+object_pan_tracker_2d.py logic
+servo_motor_node.py serial output logic
+optional scan-sequence block (Pythonized from scan_sequence_node.cpp behavior)
+It also includes a block comment at the top showing the CMake snippet added.
